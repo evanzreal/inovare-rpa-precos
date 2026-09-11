@@ -1,0 +1,7 @@
+.venv/
+.perfil_chrome/
+__pycache__/
+*.pyc
+saidas/
+.env
+*.log
