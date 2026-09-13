@@ -48,6 +48,13 @@ alimentam a base final.
 Login feito pelo Guilherme em 2026-06-26.
 Portal (Salesforce Experience Cloud): https://localiza.my.site.com/meoorevendas/s/
 
+Amostra coletada manualmente em 2026-09-13 pra validar o roteiro ponta a ponta:
+ver amostra_2026-09-13.csv nesta pasta (modelo TERA 12V FLEX 1.0, Suv, Solida,
+desconto 13% -- todos os prazos x franquias, com 15 celulas em branco porque a
+ferramenta de browser usada pra testar so renderiza ~8 das 11 opcoes de Franquia
+por vez; isso e uma limitacao dessa ferramenta de teste, nao do site -- o
+Playwright real acessa o combobox direto e nao deve ter esse problema).
+
 PENDENTE: escrever o Playwright que segue exatamente esse roteiro (o form usa
 componentes LWC -- provavel que precise do mesmo padrao "click -> fill('') ->
 press_sequentially -> dispatch change/blur" ja usado no fluxo de credito, ver
